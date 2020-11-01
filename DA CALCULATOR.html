@@ -1,0 +1,270 @@
+<html>
+<head>
+    
+ <style>
+     #container
+     {
+         width: 800px;
+         box-shadow: 0px 6px 25px -7px #333;
+     }
+     .input-footer
+     {
+         float: right;
+     }
+     .input
+     {
+         padding: 2px;
+         border: 1px solid black  ;
+         width: 795px;
+     }
+      input
+     {
+         text-align: center;
+     }
+  table
+     {
+      background-color: white;
+         
+     }
+     #t1
+     {
+         border: 1px solid black;
+         width: 800px;
+         border-collapse: collapse;
+     }
+   #head
+     {
+       font-size: 22px  
+        
+     }
+     td
+     {
+         text-align: center;
+     }
+     h4{
+         padding: 10px 0px 8px 0px;
+     }
+     button
+     {
+         width: 75px;
+         height: 30px;
+         position: absolute;
+         margin-left: 305px;
+         margin-top: 10px;
+         border-radius: 5px;
+         
+     }
+     #t2
+     {
+         background-color: #4d4d4d;
+        
+     }
+     .t-color
+     {
+         background-color: #6c6c6d;
+        
+     }
+     #t3
+     {
+         
+         text-align: left;
+     }
+     #t3 th
+     {
+         padding: 3px 50px;
+     }
+    </style>   
+    <script>
+        function calc()
+        {
+            var a=1641,a2=1504,a3=1370,a4=1219,a5=1082,a6=681;
+            var n=parseFloat(document.getElementById('n').value);
+            
+            document.getElementById('n1').value=(a+n)*0.67;
+            document.getElementById('n2').value=(a+n)*0.55;
+            document.getElementById('n3').value=(a+n)*0.33;
+            document.getElementById('n4').value=(a+n)*0.17;
+            
+            document.getElementById('n5').value=(a2+n)*0.35;
+            document.getElementById('n6').value=(a2+n)*0.29;
+            document.getElementById('n7').value=(a2+n)*0.17;
+            document.getElementById('n8').value=(a2+n)*0.09;
+            
+            document.getElementById('n9').value=(a3+n)*24.00;
+            document.getElementById('n10').value=(a3+n)*20.00;
+            document.getElementById('n11').value=(a3+n)*12.00;
+            document.getElementById('n12').value=(a3+n)*0.06;
+            
+            document.getElementById('n13').value=(a4+n)*0.18;
+            
+             document.getElementById('n14').value=(a5+n)*0.15;
+            
+             document.getElementById('n15').value=(a6+n)*0.10;
+            
+              document.getElementById('n16').value=(a+n);
+              document.getElementById('n17').value=(a2+n);
+              document.getElementById('n18').value=(a3+n);
+              document.getElementById('n19').value=(a4+n);
+              document.getElementById('n20').value=(a5+n);
+              document.getElementById('n21').value=(a6+n);
+            
+            
+            
+            
+        }
+    
+    </script>
+    
+</head>
+<body bgcolor="#dbddde">
+
+    <center> <h4 ><I>Dearness Allowances payable during February 2020 to July 2020 is as under :					</I></h4></center>
+     <center>
+         <div id="container">
+    <div>
+    <table border ="1" id="t1" cellspacing="10 " cellpadding="10">
+    <tr id="t2">
+      <th id="head"  >D.A Rates for Pensioners (%) -Increase by <input type="text" id="n" size="10 pa" >     slabs					
+</th>
+        <button onclick="calc()">Calculate</button>
+    </tr>
+        <tr>
+        <th>Retired prior to 01-11-1992-        <input type="text" id="n16" size="10" placeholder="1641"> slabs over 600 points					</th>
+    </tr>
+       
+    
+    </table>
+        </div>
+    <div>
+    <table border="1" width="800">
+     <tr  class="t-color">
+            <td>0.67 upto 1250
+</td>
+            <td>0.55   1251-2000
+</td>
+            <td>0.33  2001-2130
+</td>
+            <td>0.17   Above 2130
+</td>
+    </tr>
+        
+    </table>
+        <div class="input">
+        <input type="text" id="n1" size="22" placeholder="Result">
+         <input type="text" id="n2" size="23" placeholder="Result">
+             <input type="text" id="n3" size="23" placeholder="Result">
+             <input type="text" id="n4" size="25" placeholder="Result">
+        </div>
+        <table border ="1" id="t1" cellspacing="10 " cellpadding="10">
+   
+        <tr>
+        <th>After 01.11.1992 upto 31.03.1998-<input type="text" id="n17" size="10" placeholder="1504"> slabs over 1148 points					
+			</th>
+    </tr>
+       
+    
+    </table>
+        </div>
+    
+    <table border="1" width="800">
+     <tr class="t-color">
+            <td>0.35 upto 2400
+
+</td>
+            <td> 0.29  2401-3850
+
+</td>
+            <td>0.17  3851-4100
+
+</td>
+            <td>0.09   Above 4100
+
+</td>
+    </tr>
+        
+    </table>
+    <div class="input">
+        <input type="text" id="n5" size="22" placeholder="Result">
+         <input type="text" id="n6" size="23" placeholder="Result">
+             <input type="text" id="n7" size="23" placeholder="Result">
+             <input type="text" id="n8" size="25" placeholder="Result">
+        </div>
+    <table border ="1" id="t1" cellspacing="10 " cellpadding="10">
+   
+        <tr>
+        <th>After 01.04.1998 upto 31.10.2002-<input type="text" id="n18" size="10" placeholder="1370"> slabs over 1684 points					
+				
+			</th>
+    </tr>
+       
+    
+    </table>
+    
+    
+    <table border="1" width="800">
+     <tr class="t-color">
+            <td>24.00   upto 3550
+
+
+</td>
+            <td>     20.00   3551-5650
+
+
+</td>
+            <td>12.00   5651-6010
+
+
+</td>
+            <td>0.06     Above 6010
+
+
+</td>
+    </tr>
+        
+    </table>
+    <div class="input">
+        <input type="text" id="n9" size="22" placeholder="Result">
+         <input type="text" id="n10" size="23" placeholder="Result">
+             <input type="text" id="n11" size="23" placeholder="Result">
+             <input type="text" id="n12" size="25" placeholder="Result">
+        </div>
+    <table border="1" width="800" style="border-collapse: collapse" id="t3">
+    <tr> 
+    <th> Retired on or after 01.11.2002-       <input type="text" id="n19" size="10" placeholder="1219"> slabs over     2288					
+</th>    
+    </tr>
+         <tr> 
+    <th> 0.18  For the entire Basic Pension Amount 219.42%	<input type="text" id="n13" class="input-footer" size="20" placeholder="Result">		
+				
+</th>    
+    </tr>
+         <tr> 
+    <th> 0.15   Retired on or after 01.11.2007-<input type="text" id="n20" size="10" placeholder="1082">  slabs over 2836 points		
+        <input type="text" id="n14" class="input-footer" size="20" placeholder="Result">			
+				
+</th>    
+    </tr>
+         <tr> 
+    <th> For the entire Basic Pension Amount   162.30%       					
+			
+</th>    
+    </tr>
+         <tr> 
+    <th> 0.10  Retired on or after 01.11.2012- <input type="text" id="n21" size="10" placeholder="681"> slabs over  4440	    
+        <input type="text" id="n15" class="input-footer" size="20" placeholder="Result">	
+				
+</th>    
+    </tr>
+         <tr> 
+    <th> For the entire Basic Pension Amount 68.10%					
+				
+</th>    
+    </tr>
+    
+    </table>
+             </div>
+    </center> 
+</body>
+
+
+</html>
